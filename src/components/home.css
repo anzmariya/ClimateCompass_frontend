@@ -1,0 +1,43 @@
+body{
+    /* background-image: url('https://wallpapers.com/images/hd/perfect-weather-with-gradient-sky-ym0nn79vhoqg34v3.jpg'); */
+    background-attachment : fixed;
+    background-position   : 50% 50%;     /* or: center center */
+    background-size       : cover;       /* CSS3 */
+
+}
+.align{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.inputbar{
+    display: flex;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-color: rgba(69, 55, 55, 0.253);
+    width: 100%;
+    color: white;
+}
+.inputbar:focus{
+    background-color: black;
+}
+
+.commondiv{
+    border: 2px;
+    border-color: white;
+    background-color: rgba(222, 184, 135, 0.533);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.pie{
+    height: 200px;
+    width: 200px;
+
+}
+.text1{
+    color: rgb(181, 62, 62);
+}
